@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5016,
+          "bottomRow": 1320,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -84,7 +84,7 @@
               },
               "animateLoading": true,
               "parentColumnSpace": 19.5,
-              "leftColumn": 21,
+              "leftColumn": 25,
               "customFusionChartConfig": {
                 "type": "column2d",
                 "dataSource": {
@@ -111,7 +111,7 @@
                 }
               },
               "key": "2lynly41ie",
-              "rightColumn": 45,
+              "rightColumn": 49,
               "widgetId": "ph324ruu4a",
               "isVisible": true,
               "version": 1,
@@ -125,30 +125,75 @@
               "chartType": "COLUMN_CHART"
             },
             {
-              "widgetName": "Checkbox1",
-              "displayName": "Checkbox",
-              "iconSVG": "/formbuilderui/static/media/icon.aaab032b.svg",
-              "topRow": 11,
-              "bottomRow": 15,
+              "widgetName": "Chart2",
+              "allowScroll": false,
+              "displayName": "Chart",
+              "iconSVG": "/formbuilderui/static/media/icon.6adbe31e.svg",
+              "topRow": 7,
+              "bottomRow": 39,
               "parentRowSpace": 10,
-              "type": "CHECKBOX_WIDGET",
-              "alignWidget": "LEFT",
+              "type": "CHART_WIDGET",
               "hideCard": false,
+              "chartData": {
+                "qeowqe159v": {
+                  "seriesName": "Sales",
+                  "data": [
+                    {
+                      "x": "Product1",
+                      "y": 20000
+                    },
+                    {
+                      "x": "Product2",
+                      "y": 22000
+                    },
+                    {
+                      "x": "Product3",
+                      "y": 32000
+                    }
+                  ]
+                }
+              },
               "animateLoading": true,
               "parentColumnSpace": 19.5,
               "leftColumn": 1,
-              "isDisabled": false,
-              "key": "y277cgabkm",
-              "isRequired": false,
-              "rightColumn": 21,
-              "widgetId": "ceqdzoj6vz",
+              "customFusionChartConfig": {
+                "type": "column2d",
+                "dataSource": {
+                  "chart": {
+                    "caption": "Sales Report",
+                    "xAxisName": "Product Line",
+                    "yAxisName": "Revenue($)",
+                    "theme": "fusion"
+                  },
+                  "data": [
+                    {
+                      "label": "Product1",
+                      "value": 20000
+                    },
+                    {
+                      "label": "Product2",
+                      "value": 22000
+                    },
+                    {
+                      "label": "Product3",
+                      "value": 32000
+                    }
+                  ]
+                }
+              },
+              "key": "yq779naix3",
+              "rightColumn": 25,
+              "widgetId": "cgcbz11v6e",
               "isVisible": true,
-              "label": "Label",
               "version": 1,
               "parentId": "0",
+              "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "defaultCheckedState": true
+              "yAxisName": "Revenue($)",
+              "chartName": "Sales Report",
+              "xAxisName": "Product Line",
+              "chartType": "COLUMN_CHART"
             }
           ]
         },
@@ -156,7 +201,7 @@
         "widgetNames": [
           "Button1",
           "Chart1",
-          "Checkbox1",
+          "Chart2",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,

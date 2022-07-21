@@ -84,7 +84,7 @@
               },
               "animateLoading": true,
               "parentColumnSpace": 19.5,
-              "leftColumn": 18,
+              "leftColumn": 21,
               "customFusionChartConfig": {
                 "type": "column2d",
                 "dataSource": {
@@ -111,7 +111,7 @@
                 }
               },
               "key": "2lynly41ie",
-              "rightColumn": 42,
+              "rightColumn": 45,
               "widgetId": "ph324ruu4a",
               "isVisible": true,
               "version": 1,
@@ -123,6 +123,32 @@
               "chartName": "Sales Report",
               "xAxisName": "Product Line",
               "chartType": "COLUMN_CHART"
+            },
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/formbuilderui/static/media/icon.aaab032b.svg",
+              "topRow": 11,
+              "bottomRow": 15,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 19.5,
+              "leftColumn": 1,
+              "isDisabled": false,
+              "key": "y277cgabkm",
+              "isRequired": false,
+              "rightColumn": 21,
+              "widgetId": "ceqdzoj6vz",
+              "isVisible": true,
+              "label": "Label",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "defaultCheckedState": true
             }
           ]
         },
@@ -130,6 +156,7 @@
         "widgetNames": [
           "Button1",
           "Chart1",
+          "Checkbox1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
